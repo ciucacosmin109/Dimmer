@@ -18,15 +18,14 @@ mono_crash.*
 
 # Build results
 [Dd]ebug/
-[Dd]ebugPublic/  
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
+[Dd]ebugPublic/
 bld/ 
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+Dimmer/x64
+Dimmer/x86
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -83,12 +82,15 @@ StyleCopReport.xml
 *.tmp_proj
 *_wpftmp.csproj
 *.log
+*.tlog
 *.vspscc
 *.vssscc
 .builds
 *.pidb
 *.svclog
 *.scc
+
+*.metagen
 
 # Chutzpah Test files
 _Chutzpah*
